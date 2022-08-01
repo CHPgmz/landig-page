@@ -22,7 +22,6 @@ const Container = () => {
       <div className="container">
         <Hero id="hero" />
         <Features idFeatures="features" />
-        <Video id="video" />
         <Pricing id="pricing" />
         <Footer id="footer" />
       </div>
@@ -81,19 +80,6 @@ const Features = ({ idFeatures }) => {
           </p>
         </div>
       </div>
-    </section>
-  );
-};
-
-const Video = ({ id }) => {
-  return (
-    <section className="video" id={id}>
-      <video controlsList="true">
-        <source
-          src="https://www.youtube.com/watch?v=m6mkA6Zr1vY&feature"
-          type="video/mp4"
-        ></source>
-      </video>
     </section>
   );
 };
